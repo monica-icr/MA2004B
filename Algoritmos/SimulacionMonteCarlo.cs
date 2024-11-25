@@ -20,7 +20,7 @@ namespace AlgoritmoMonteCarlo.Algoritmos
                 for (int j = 0; j < totalPaneles; j++) 
                 {
                     Random random = new Random();
-                    int valor = (int)((limiteSuperior - limiteInferior) * random.NextDouble());
+                    int valor = (int)((limiteSuperior - limiteInferior) * random.NextDouble()+ limiteInferior);
                     int fechaLimiteEntrega = random.Next(0, 7);
                     int idProducto = random.Next(0, cantidadProductos);
                     Pedido panel = new Pedido(j,i,valor, fechaLimiteEntrega, idProducto);
