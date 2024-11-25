@@ -47,6 +47,15 @@
             label8 = new Label();
             label9 = new Label();
             textBox9 = new TextBox();
+            label10 = new Label();
+            textBox10 = new TextBox();
+            label11 = new Label();
+            textBox11 = new TextBox();
+            label12 = new Label();
+            label13 = new Label();
+            textBox12 = new TextBox();
+            label14 = new Label();
+            textBox13 = new TextBox();
             SuspendLayout();
             // 
             // button1
@@ -209,11 +218,93 @@
             textBox9.Size = new Size(100, 23);
             textBox9.TabIndex = 17;
             // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(352, 253);
+            label10.Name = "label10";
+            label10.Size = new Size(80, 15);
+            label10.TabIndex = 22;
+            label10.Text = "Rate Maximo ";
+            // 
+            // textBox10
+            // 
+            textBox10.Location = new Point(468, 250);
+            textBox10.Name = "textBox10";
+            textBox10.Size = new Size(100, 23);
+            textBox10.TabIndex = 21;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(55, 253);
+            label11.Name = "label11";
+            label11.Size = new Size(75, 15);
+            label11.TabIndex = 20;
+            label11.Text = "Rate minimo";
+            // 
+            // textBox11
+            // 
+            textBox11.Location = new Point(178, 250);
+            textBox11.Name = "textBox11";
+            textBox11.Size = new Size(100, 23);
+            textBox11.TabIndex = 19;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(274, 215);
+            label12.Name = "label12";
+            label12.Size = new Size(127, 15);
+            label12.TabIndex = 23;
+            label12.Text = "Propiedades maquinas";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(335, 292);
+            label13.Name = "label13";
+            label13.Size = new Size(117, 15);
+            label13.TabIndex = 27;
+            label13.Text = "Rate maximo hornos";
+            // 
+            // textBox12
+            // 
+            textBox12.Location = new Point(468, 289);
+            textBox12.Name = "textBox12";
+            textBox12.Size = new Size(100, 23);
+            textBox12.TabIndex = 26;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(55, 292);
+            label14.Name = "label14";
+            label14.Size = new Size(115, 15);
+            label14.TabIndex = 25;
+            label14.Text = "Rate minimo hornos";
+            // 
+            // textBox13
+            // 
+            textBox13.Location = new Point(178, 289);
+            textBox13.Name = "textBox13";
+            textBox13.Size = new Size(100, 23);
+            textBox13.TabIndex = 24;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label13);
+            Controls.Add(textBox12);
+            Controls.Add(label14);
+            Controls.Add(textBox13);
+            Controls.Add(label12);
+            Controls.Add(label10);
+            Controls.Add(textBox10);
+            Controls.Add(label11);
+            Controls.Add(textBox11);
             Controls.Add(label9);
             Controls.Add(textBox9);
             Controls.Add(label8);
@@ -235,6 +326,7 @@
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -260,5 +352,14 @@
         private Label label8;
         private Label label9;
         private TextBox textBox9;
+        private Label label10;
+        private TextBox textBox10;
+        private Label label11;
+        private TextBox textBox11;
+        private Label label12;
+        private Label label13;
+        private TextBox textBox12;
+        private Label label14;
+        private TextBox textBox13;
     }
 }
