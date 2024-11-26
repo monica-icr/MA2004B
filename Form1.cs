@@ -23,7 +23,7 @@ namespace AlgoritmoMonteCarlo
                     textBox12.Text.Equals("") ||
                     textBox13.Text.Equals(""))
             {
-                MessageBox.Show("Los números tienen que ser diferente de VACÍOS");
+                MessageBox.Show("Los nÃºmeros tienen que ser diferente de VACÃOS");
                 return;
             }
 
@@ -39,7 +39,7 @@ namespace AlgoritmoMonteCarlo
 
             if (!(rateMinimo > rateMaximoHorno))
             {
-                MessageBox.Show("Rate Máximo Horno debe ser menor que Rate Mínimo");
+                MessageBox.Show("Rate MÃ¡ximo Horno debe ser menor que Rate MÃ­nimo");
                 return;
             }
 
@@ -85,12 +85,12 @@ namespace AlgoritmoMonteCarlo
                 {
                     string rutaArchivo = saveFileDialog.FileName;
                     simulacion.EscribirPedidosEnCSV(listaPaneles, rutaArchivo, seleccionado);
-                    MessageBox.Show($"La simulación se ha guardado en {rutaArchivo}");
+                    MessageBox.Show($"La simulaciÃ³n se ha guardado en {rutaArchivo}");
                 }
             }
 
             List<Rate> listaRates = new List<Rate>();
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < 8; i++)
             {
                 if (i == 3 | i == 4)
                 {
