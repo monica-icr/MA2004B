@@ -195,15 +195,15 @@ def iteraciones(df, df2, max_iteraciones=10000):
 
 #Aquí se pueden modificar las rutas de archivos si es necesario. 
 
-pedidos_pocos = "C:/Users/chuby/Documents/6toSemestre/Optimizacion/reto/RATESyPedidos/PEDIDOS1.csv"
-pedidos_moderados = "C:/Users/chuby/Documents/6toSemestre/Optimizacion/reto/RATESyPedidos/PEDIDOS2.csv"
-pedidos_muchos = "C:/Users/chuby/Documents/6toSemestre/Optimizacion/reto/RATESyPedidos/PEDIDOS3.csv"
-pedidos_extremos = "C:/Users/chuby/Documents/6toSemestre/Optimizacion/reto/RATESyPedidos/PEDIDOS4.csv"
+pedidos_pocos = "./RATESyPedidos/PEDIDOS1.csv"
+pedidos_moderados = "./RATESyPedidos/PEDIDOS2.csv"
+pedidos_muchos = "./RATESyPedidos/PEDIDOS3.csv"
+pedidos_extremos = "C./RATESyPedidos/PEDIDOS4.csv"
 
-maquinas_pocas = "C:/Users/chuby/Documents/6toSemestre/Optimizacion/reto/RATESyPedidos/RATES1.csv"
-maquinas_moderadas = "C:/Users/chuby/Documents/6toSemestre/Optimizacion/reto/RATESyPedidos/RATES2.csv"
-maquinas_muchas = "C:/Users/chuby/Documents/6toSemestre/Optimizacion/reto/RATESyPedidos/RATES3.csv"
-maquinas_extremas = "C:/Users/chuby/Documents/6toSemestre/Optimizacion/reto/RATESyPedidos/RATES4.csv"
+maquinas_pocas = "./RATESyPedidos/RATES1.csv"
+maquinas_moderadas = "./RATESyPedidos/RATES2.csv"
+maquinas_muchas = "./RATESyPedidos/RATES3.csv"
+maquinas_extremas = "./RATESyPedidos/RATES4.csv"
 
 st.title("Programación de Producción")
 st.subheader("Con lentitud en la segunda etapa")
